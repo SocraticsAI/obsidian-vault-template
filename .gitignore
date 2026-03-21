@@ -1,0 +1,11 @@
+# Obsidian machine-specific files
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Scratch files
+Claude/Scratch/*
+!Claude/Scratch/.gitkeep
