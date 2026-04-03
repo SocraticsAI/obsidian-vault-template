@@ -29,6 +29,11 @@ This is an Obsidian vault paired with the claude-memory system.
 - Callouts `> [!note]` for highlighted info
 - Nested tags: `#project/active`, `#status/draft`, `#type/log`
 
+## Authorship
+At session start, run `git config user.name` and store the result as the session author.
+If the command returns nothing, fall back to `whoami`.
+Add an `author` field to the YAML frontmatter of every `.md` file you create or append to.
+
 ## Active Projects
 <!-- Add your active projects here, e.g.: -->
 <!-- - [[Projects/My Project/Current State]] -->
